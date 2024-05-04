@@ -109,6 +109,7 @@ export const Home = () => {
       <input type="text" placeholder="Nome do fornecedor" {...register('fornecedor_data')}/>
       {errors.fornecedor_data && <span>{errors.fornecedor_data.message}</span>}
      </InternalLeftForm>
+     
      <InternalRightForm>
       <label>Tipo</label>
       <input type="text" placeholder="Tipo" {...register('tipo_data')}/>

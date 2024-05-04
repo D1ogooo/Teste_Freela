@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const InternalLeftForm = styled.div`
+ span {
+  color: red;
+ }
+ 
  display: flex;
  flex-direction: column;
  width: 50%;
@@ -31,6 +35,10 @@ export const InternalRightForm = styled.div`
  flex-direction: column;
  font-family: 'Poppins';
 
+ span {
+  color: red;
+ }
+
  input {
   height: 3.125rem;
   margin-top: .625rem;
@@ -46,11 +54,14 @@ export const InternalRightForm = styled.div`
 `
 
 export const PrincipalForm = styled.form`
+span {
+  color: red;
+ }
+
 .submit_content {
-    
     text-align: end;
-    margin-top: 1.875rem;
-    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
     input {
         border-radius: .625rem;
         border: none;
@@ -125,7 +136,7 @@ export const Form = styled.div`
 `
 
 export const ExternalCardImages = styled.div`
- margin-top: 5.25rem;
+ margin-top: -6.8rem;
 `
 
 export const FirstExternalCard = styled.div`
